@@ -7,11 +7,14 @@ let numberArray = [
   100,
   1000,
   10000,
+  100000,
+  1000000,
+  10000000,
   1234567890
 ]
 
 function searchNumbers() {
-  let searchTarget = 1
+  let searchTarget = prompt('What number do you want to search the array for?')
   let searchResult = false
 
   for (let currentNumber of numberArray) {
